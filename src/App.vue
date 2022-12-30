@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div>Hi here</div><br>
+  
+    <router-link to="/">Start</router-link>
+    <router-link to="/just-text">Just text</router-link>
+    <router-link to="/simple-list">Simple List</router-link>
+    <router-link to="/truncate-function">Truncate Function</router-link>
+    <router-link to="/page-numbers/1" data-testid="test-click">Page numbers</router-link>
+    <router-link to="/vuex-test">Vuex test</router-link>
+
+    <router-view />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
