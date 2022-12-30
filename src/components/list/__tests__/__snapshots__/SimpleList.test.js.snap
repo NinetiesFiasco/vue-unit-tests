@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `"my title 3my description 3my title 4my description 4 Here we have two tests: First test that we have rendered component ListItem with one entry with given title and description Second test that we have rendered component SimpleList with one entry of ListItem and we test just count FYI shallowMount renders only component without children, other way mount renders component with children"`;
